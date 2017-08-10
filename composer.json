@@ -1,0 +1,24 @@
+{
+    "name": "appletechlabs/sabre",
+    "description": "Sabre API composer package",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "6.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Apple Tech Labs",
+            "email": "supun@appletechlabs.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "autoload": {
+        "psr-4": {
+            "Appletechlabs\\Sabre\\": "src"
+        }
+    }
+}
